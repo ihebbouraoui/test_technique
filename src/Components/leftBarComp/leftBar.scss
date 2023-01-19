@@ -1,0 +1,41 @@
+.mainContainer{
+  margin-top: 20px;
+  width: 300px;
+  height: fit-content;
+  min-height: 450px;
+  border: 1px deeppink solid;
+  border-radius: 15px;
+  box-shadow: 10px 5px 0px white;
+.categories{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  height: 45px;
+  border-bottom: 1px gray solid;
+  padding: 15px;
+  justify-content: space-between;
+
+  span{
+    color: deeppink;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+}
+  .items{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    padding: 20px;
+    span{
+      color: gray;
+      font-size: 15px;
+      text-transform: capitalize;
+      &:hover{
+        color: black;
+        border-left: 5px deeppink solid;
+      }
+    }
+  }
+}
